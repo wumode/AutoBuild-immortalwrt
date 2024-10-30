@@ -28,7 +28,6 @@ function git_sparse_clone() {
 git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
-git_sparse_clone master https://github.com/kiddin9/openwrt-packages luci-app-pushbot
 git_sparse_clone master https://github.com/xuanranran/openwrt-packages mosdns
 git_sparse_clone master https://github.com/xuanranran/openwrt-packages luci-app-adguardhome
 # 加入OpenClash核心
